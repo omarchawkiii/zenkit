@@ -36,20 +36,217 @@
     @endif
 
     <style>
-        .vertical-align-flex--space-between.zenkit-form-dialog__footer__buttons
-        {
-            display: none !important ;
-        }
-        zenkit-form-progress
-        {
-            display: none !important ;
-        }
+
+
+.tecnoponto-whatsapp-icone{
+    position:fixed  ;
+    bottom:10px;
+    left:10px;
+     z-index:999999;
+}
+.tecnoponto-whatsapp-icone{
+ animation: animationFrames linear 2s;
+ animation-iteration-count: infinite;
+ transform-origin: 50% 50%;
+ -webkit-animation: animationFrames linear 2s;
+ -webkit-animation-iteration-count: infinite;
+ -webkit-transform-origin: 50% 50%;
+ -moz-animation: animationFrames linear 2s;
+ -moz-animation-iteration-count: infinite;
+ -moz-transform-origin: 50% 50%;
+ -o-animation: animationFrames linear 2s;
+ -o-animation-iteration-count: infinite;
+ -o-transform-origin: 50% 50%;
+ -ms-animation: animationFrames linear 2s;
+ -ms-animation-iteration-count: infinite;
+ -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames{
+ 0% {
+   transform:  translate(0px,0px)  ;
+ }
+ 5% {
+   transform:  translate(-5px,0px)  ;
+ }
+ 10% {
+   transform:  translate(5px,0px)  ;
+ }
+ 15% {
+   transform:  translate(-10px,0px)  ;
+ }
+ 20% {
+   transform:  translate(10px,0px)  ;
+ }
+ 25% {
+   transform:  translate(-10px,0px)  ;
+ }
+ 30% {
+   transform:  translate(0px,0px)  ;
+ }
+ 35% {
+   transform:  translate(0px,0px)  ;
+ }
+ 40% {
+   transform:  translate(0px,0px)  ;
+ }
+ 45% {
+   transform:  translate(0px,0px)  ;
+ }
+ 100% {
+   transform:  translate(0px,0px)  ;
+ }
+}
+
+@-moz-keyframes animationFrames{
+ 0% {
+   -moz-transform:  translate(0px,0px)  ;
+ }
+ 5% {
+   -moz-transform:  translate(-5px,0px)  ;
+ }
+ 10% {
+   -moz-transform:  translate(5px,0px)  ;
+ }
+ 15% {
+   -moz-transform:  translate(-10px,0px)  ;
+ }
+ 20% {
+   -moz-transform:  translate(10px,0px)  ;
+ }
+ 25% {
+   -moz-transform:  translate(-10px,0px)  ;
+ }
+ 30% {
+   -moz-transform:  translate(0px,0px)  ;
+ }
+ 35% {
+   -moz-transform:  translate(0px,0px)  ;
+ }
+ 40% {
+   -moz-transform:  translate(0px,0px)  ;
+ }
+ 45% {
+   -moz-transform:  translate(0px,0px)  ;
+ }
+ 100% {
+   -moz-transform:  translate(0px,0px)  ;
+ }
+}
+
+@-webkit-keyframes animationFrames {
+ 0% {
+   -webkit-transform:  translate(0px,0px)  ;
+ }
+ 5% {
+   -webkit-transform:  translate(-5px,0px)  ;
+ }
+ 10% {
+   -webkit-transform:  translate(5px,0px)  ;
+ }
+ 15% {
+   -webkit-transform:  translate(-10px,0px)  ;
+ }
+ 20% {
+   -webkit-transform:  translate(10px,0px)  ;
+ }
+ 25% {
+   -webkit-transform:  translate(-10px,0px)  ;
+ }
+ 30% {
+   -webkit-transform:  translate(0px,0px)  ;
+ }
+ 35% {
+   -webkit-transform:  translate(0px,0px)  ;
+ }
+ 40% {
+   -webkit-transform:  translate(0px,0px)  ;
+ }
+ 45% {
+   -webkit-transform:  translate(0px,0px)  ;
+ }
+ 100% {
+   -webkit-transform:  translate(0px,0px)  ;
+ }
+}
+
+@-o-keyframes animationFrames {
+ 0% {
+   -o-transform:  translate(0px,0px)  ;
+ }
+ 5% {
+   -o-transform:  translate(-5px,0px)  ;
+ }
+ 10% {
+   -o-transform:  translate(5px,0px)  ;
+ }
+ 15% {
+   -o-transform:  translate(-10px,0px)  ;
+ }
+ 20% {
+   -o-transform:  translate(10px,0px)  ;
+ }
+ 25% {
+   -o-transform:  translate(-10px,0px)  ;
+ }
+ 30% {
+   -o-transform:  translate(0px,0px)  ;
+ }
+ 35% {
+   -o-transform:  translate(0px,0px)  ;
+ }
+ 40% {
+   -o-transform:  translate(0px,0px)  ;
+ }
+ 45% {
+   -o-transform:  translate(0px,0px)  ;
+ }
+ 100% {
+   -o-transform:  translate(0px,0px)  ;
+ }
+}
+
+@-ms-keyframes animationFrames {
+ 0% {
+   -ms-transform:  translate(0px,0px)  ;
+ }
+ 5% {
+   -ms-transform:  translate(-5px,0px)  ;
+ }
+ 10% {
+   -ms-transform:  translate(5px,0px)  ;
+ }
+ 15% {
+   -ms-transform:  translate(-10px,0px)  ;
+ }
+ 20% {
+   -ms-transform:  translate(10px,0px)  ;
+ }
+ 25% {
+   -ms-transform:  translate(-10px,0px)  ;
+ }
+ 30% {
+   -ms-transform:  translate(0px,0px)  ;
+ }
+ 35% {
+   -ms-transform:  translate(0px,0px)  ;
+ }
+ 40% {
+   -ms-transform:  translate(0px,0px)  ;
+ }
+ 45% {
+   -ms-transform:  translate(0px,0px)  ;
+ }
+ 100% {
+   -ms-transform:  translate(0px,0px)  ;
+ }
+}
     </style>
     @yield('customcss')
 
 </head>
 
-<body>
+<body style="background: url('{{asset('/assets/js/plugins.js')}}')">
 
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -103,18 +300,7 @@
  -->
     <!-- App js -->
     <script src="{{asset('/assets/js/app.js')}}"></script>
-    <script>
 
-        window.onload = function()
-        {
-            var iframe = document.getElementById("iframe");
-            $('iframe').load( function() {
-                $('iframe').contents().find("head")
-                .append($("<style type='text/css'>  zenkit-powered-by-zenforms{display:none;}  </style>"));
-            });
-
-        }
-       </script>
     @yield('custom_script')
 
 

@@ -3,11 +3,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
-                <script>document.write(new Date().getFullYear())</script>© ZENKIT.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script>document.write(new Date().getFullYear())</script>© Bolster Group.
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    Design &amp; Develop by <a href="https://omodiz.com" target="_blanck"> OMODIZ</a>
+                    Support : <i class="fa fa-phone"> </i> +971 52 736 5437
                 </div>
             </div>
 

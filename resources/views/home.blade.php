@@ -35,13 +35,17 @@
         </div>
         <!-- End Page-content -->
 </div>
+<div class="tecnoponto-whatsapp-icone">
 
+    <div class="d-none d-md-block">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=+971 52 736 5437&amp;text=Hello" title="Icone whatsapp">
+            <img src="{{asset('/assets/images/icone-whatsapp-tecnoponto.png')}}" alt="" >
+        </a>
+    </div>
+
+</div>
 
 @endsection
 
-
 @section('custom_css')
-    <style>
-
-    </style>
 @endsection

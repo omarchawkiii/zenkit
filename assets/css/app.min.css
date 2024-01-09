@@ -8152,6 +8152,15 @@ span.flatpickr-weekday {
     background-position: bottom, 50px;
     background-size: cover;
 }
+
+body {
+    position: relative;
+    background-image: url(../images/bg.jpg) !important;
+    background-position: bottom, 50px;
+    background-size: cover;
+}
+
+
 .bg-auth .bg-overlay {
     opacity: 0.5;
 }
