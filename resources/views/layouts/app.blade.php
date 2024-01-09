@@ -12,8 +12,8 @@
     <link rel="shortcut icon" href="{{asset('/assets/images/favicon.ico')}}">
 
     <!-- plugin css
-    <link href="{{asset('/assets/libs/jsvectormap/css/jsvectormap.min.css')}}" rel="stylesheet" type="text/css" />-->
-
+        <link href="{{asset('/assets/libs/jsvectormap/css/jsvectormap.min.css')}}" rel="stylesheet" type="text/css" />
+    -->
     <!-- Layout config Js -->
     <script src="{{asset('/assets/js/layout.js')}}"></script>
     <!-- Bootstrap Css -->
@@ -23,8 +23,6 @@
     @else
         <link href="{{asset('/assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     @endif
-
-
 
     <!-- Icons Css -->
     <link href="{{asset('/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
@@ -37,7 +35,18 @@
         <link href="{{asset('/assets/css/custom.css')}}" rel="stylesheet" type="text/css" />
     @endif
 
+    <style>
+        .vertical-align-flex--space-between.zenkit-form-dialog__footer__buttons
+        {
+            display: none !important ;
+        }
+        zenkit-form-progress
+        {
+            display: none !important ;
+        }
+    </style>
     @yield('customcss')
+
 </head>
 
 <body>
@@ -94,7 +103,18 @@
  -->
     <!-- App js -->
     <script src="{{asset('/assets/js/app.js')}}"></script>
+    <script>
 
+        window.onload = function()
+        {
+            var iframe = document.getElementById("iframe");
+            $('iframe').load( function() {
+                $('iframe').contents().find("head")
+                .append($("<style type='text/css'>  zenkit-powered-by-zenforms{display:none;}  </style>"));
+            });
+
+        }
+       </script>
     @yield('custom_script')
 
 
