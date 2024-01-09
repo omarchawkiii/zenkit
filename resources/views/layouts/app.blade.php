@@ -241,12 +241,18 @@
    -ms-transform:  translate(0px,0px)  ;
  }
 }
+#page-topbar
+{
+    position: relative !important ;
+}
     </style>
     @yield('customcss')
 
 </head>
 
-<body style="background: url('{{asset('/assets/js/plugins.js')}}')">
+<body style=" background-image: url(http://localhost/zenkit/assets/js/plugins.js);
+background-size: conver;
+background-repeat: no-repeat;">
 
     <!-- Begin page -->
     <div id="layout-wrapper">

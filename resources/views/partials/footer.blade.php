@@ -6,8 +6,8 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script>document.write(new Date().getFullYear())</script>© Bolster Group.
             </div>
             <div class="col-sm-6">
-                <div class="text-sm-end d-none d-sm-block">
-                    Support : <i class="fa fa-phone"> </i> +971 52 736 5437
+                <div class="text-center">
+                    Support : <i class="fa fa-phone"> </i> +971 55 226 0571
                 </div>
             </div>
 
