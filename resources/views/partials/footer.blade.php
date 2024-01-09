@@ -2,8 +2,10 @@
 <footer class="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script>document.write(new Date().getFullYear())</script>© Bolster Group.
+            <div class="col-sm-6 ext-center">
+                <p class="text-center">
+                <script>document.write(new Date().getFullYear())</script>© Bolster Group.
+                </p>
             </div>
             <div class="col-sm-6">
                 <div class="text-center">

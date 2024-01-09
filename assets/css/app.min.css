@@ -8189,6 +8189,10 @@ body {
     .auth-one-bg-position {
         height: 280px;
     }
+    .main-content
+    {
+        background : white !important ;
+    }
 }
 .auth-one-bg {
     background-image: url(../images/auth-one-bg.jpg);
