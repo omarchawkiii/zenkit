@@ -14,7 +14,7 @@
 
 
                 <div class="row justify-content-md-center">
-                    <div class="col-lg-5 col-md-6">
+                    <div class="col-lg-5 col-md-6 border-on-mobile">
                         <div class="card">
                             <div class="card-body row" style="margin:0px;padding:0px;overflow:hidden "  height="100%" width="100%" >
 
