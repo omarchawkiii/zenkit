@@ -17,8 +17,8 @@
                     <div class="col-lg-5 col-md-6 ">
                         <div class="card">
                             <div class="card-body row" style="margin:0px;padding:0px;overflow:hidden "  height="100%" width="100%" >
-                                @if(Auth::user()->email ==  "cfo1@bg-op.com")
-                                    <iframe src="https://public.zenkit.com/f/HJzcpULv1/cta-payment-form?v=AHO9XxlANPj"
+                                @if(Auth::user()->iframe_link)
+                                    <iframe src="{{ Auth::user()->iframe_link }}"
                                         style="width: 100%; min-height: 950px;background: transparent; padding: 0 ; "
                                         allowfullscreen>
                                     </iframe>
