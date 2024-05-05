@@ -14,16 +14,21 @@
 
 
                 <div class="row justify-content-md-center">
-                    <div class="col-lg-5 col-md-6 border-on-mobile">
+                    <div class="col-lg-5 col-md-6 ">
                         <div class="card">
                             <div class="card-body row" style="margin:0px;padding:0px;overflow:hidden "  height="100%" width="100%" >
-
-                                <iframe id="iframe" src="https://public.zenkit.com/f/e1Toduedq/form-havaleh?v=SKs0oca77"
-                                        style="width: 100%; min-height: 920px;background: transparent; "
+                                @if(Auth::user()->email ==  "cfo1@bg-op.com")
+                                    <iframe src="https://public.zenkit.com/f/HJzcpULv1/cta-payment-form?v=AHO9XxlANPj"
+                                        style="width: 100%; min-height: 950px;background: transparent; padding: 0 ; "
+                                        allowfullscreen>
+                                    </iframe>
+                                @else
+                                    <iframe id="iframe" src="https://public.zenkit.com/f/e1Toduedq/form-havaleh?v=SKs0oca77"
+                                        style="width: 100%; min-height: 950px;background: transparent; padding: 0 ; "
                                         allowfullscreen>
 
                                     </iframe>
-
+                                @endif
                             </div>
                         </div>
                     </div>
@@ -37,7 +42,7 @@
 </div>
 <div class="tecnoponto-whatsapp-icone">
 
-    <div class="d-none d-md-block">
+    <div class="">
         <a target="_blank" href="https://api.whatsapp.com/send?phone=+971 55 226 0571&amp;text=Hello" title="Icone whatsapp">
             <img src="{{asset('/assets/images/icone-whatsapp-tecnoponto.png')}}" alt="" >
         </a>
